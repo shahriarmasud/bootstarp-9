@@ -1,0 +1,521 @@
+/* author 
+
+Name: Ahmed Shahriar Masud;
+email:shahriarmasud5@gmail.com;
+
+*/
+
+/*
+
+====Index===
+
+1.Header
+2. hero
+3.Fusce at
+4. Facilisis
+5. Ante Donec
+6. Blandit
+7. Placerat
+
+
+*/
+
+/* Globbal Css */
+
+.{
+	margin: 0px;
+	padding: 0px;
+
+
+}
+
+body{
+
+	font-family: 'Lato', sans-serif;
+}
+
+h1{
+	font-size: 60px;
+	color: white;
+}
+h2{
+	font-size: 25px;
+	color: white;
+}
+
+h3{
+ 	font-size: 15px;
+ 	color: #ed145b;
+}
+
+h4{
+	font-size: 12px;
+	color: #31353e;
+}
+
+h6{
+	font-size: 25px;
+	color: #31353e;
+}
+
+p{
+font-size: 12px;
+color: white;
+
+
+}
+
+
+
+/* Globbal Css */
+
+
+
+/* Header */
+
+ header{
+ 	background: url(../img/hero.png) no-repeat center top;
+ 	background-size: cover;
+ 	text-align: center;
+
+ }
+
+ a{
+ 	color: white;
+
+ }
+
+
+.header-text{
+
+	padding-bottom: 220px;
+
+}
+
+.header-text h2{
+	padding-top: 210px;
+	font-size: 30px;
+	font-weight: bold;
+
+}
+
+.header-text p{
+
+}
+
+.head-btn{
+	display: block;
+	margin: 0 auto;
+	color: #ffffff;
+	padding: 7px 35px;
+	border-radius: 30px;
+	font-size:22px;
+	border: none;
+	background-color: #ed145b;
+	margin-top: 60px;
+}
+
+.head-text{
+
+width: 20%;
+
+display: block;
+
+border: 1px solid #ed145b;
+
+text-align: center;
+
+margin: 21px auto;
+}
+
+
+
+
+
+ /* About */
+
+.about{
+	color: black;
+	position: relative;
+	background: url(../img/2nd-back.png) no-repeat center top;
+ 	background-size: cover;
+ 	text-align: left;
+
+}
+
+ .mac{
+
+ 	position: absolute;
+ 	top: 35%;
+    right: 3px;
+
+ }
+ .about-text h2{
+ 	color: #8a8a8a;
+ }
+
+.about-text p{
+ 	color: #8a8a8a;
+ 	line-height: 2;
+ }
+
+
+/*service */
+
+.our-services{
+	text-align: center;
+
+}
+ 	
+.service-text{
+	padding-top: 120px;
+
+
+}
+
+.service-text h2{
+
+color: #5a5a5a;
+}
+
+.service-text p{
+
+color: #5a5a5a;
+}
+
+
+.service-img{
+    padding-top: 80px;
+    padding-bottom: 50px;
+
+}
+
+
+/* Slider*/
+
+.slider{
+
+	padding: 0px;
+
+
+}
+
+.fa.fa-quote-left{
+
+	color: #ed145b;
+    font-size: 50px;
+    padding-bottom: 20px;
+
+}
+
+.fa.fa-quote-right{
+	
+	color: #ed145b;
+    font-size: 50px;
+    padding-top: 20px;
+}
+
+
+
+/*prices*/
+
+.prices{
+
+	text-align: center;
+	background-color: #f4f4f4;
+
+}
+
+.prices-text h2{
+
+color: #5a5a5a;
+}
+
+.prices-text p{
+
+color: #5a5a5a;
+}
+
+.price-card{
+	padding-top: 80px;
+	padding-bottom: 100px;
+
+}
+
+.card-body{
+	background-color: #5a5a5a;
+	position: relative;
+
+}
+
+.card-title{
+
+}
+
+.card-price{
+
+	font-size: 30px;
+
+}
+
+a.btn.btn-price {
+
+	background-color: #f4f4f4;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 25px;
+    position: absolute;
+    right: 84px;
+}
+
+.card-low {
+ 	padding-top: 25px;
+ 	padding-bottom: 25px;
+	
+}
+
+.card-low p{
+
+	color: black;
+}
+
+a.btn.btn-buy{
+
+	background-color: #ed145b;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 25px;
+    color: #fff;
+
+}
+
+
+/*info tab*/
+
+.info-one{
+
+	padding-top: 50px;
+}
+
+.info-two{
+
+	padding-bottom: 25px;
+}
+
+.info-text h2{
+	    color: #ed145b;
+    	font-size: 15px;
+}
+
+.info-text p{
+	color: #5a5a5a;
+	font-size: 12px;
+}
+
+
+
+/* Join */
+
+.join{
+	background-color: #ed145b;
+}
+
+.join-text{
+
+}
+
+.join-text h2{
+
+	color: white;
+	text-align: right;
+	font-size: 30px;
+	
+}
+
+.mache{
+font-weight: bold;
+}
+
+.btn-join{
+
+	background-color: #fff;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 25px;
+    color: #ed145b;
+}
+
+
+/*gallary*/
+
+.gallary{
+
+}
+
+.gallary-text{
+
+
+
+
+}
+
+.gallary-text h2{
+
+	text-align: center;
+	color: #5a5a5a;
+    padding-top: 100px;
+}
+
+.gallary-text p{
+
+	text-align: center;
+	color: #5a5a5a;
+
+}
+
+
+.row-one{
+	margin-top: 45px;
+    margin-bottom: 30px;
+
+}
+
+.row-two{
+	
+    margin-bottom: 30px;
+}
+
+
+.card{
+	background-color: #f4f4f4;
+}
+
+.card-body-new{
+
+}
+
+.card-heading{
+	font-size: 15px;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.card-textp{
+
+font-size: 15px;
+
+color: #5a5a5a;
+
+padding: 0px 10px;
+
+padding-bottom: 13px;
+}
+
+.img-card{
+	position: relative;
+}
+
+.gallary-low{
+text-align: center;
+color: #d71e5b;
+font-size: 15px;
+}
+
+.fa.fa-chevron-down{
+text-align: center;
+color: #d71e5b;
+padding-bottom: 50px;
+}
+
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    background-color: #d71e5b;
+    transition: 0.6s ease;
+}
+.content-hover{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+.img-card:hover .overlay{
+    opacity: 1;
+}
+
+.content-hover i{
+    padding: 10px;
+    font-size: 35px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+.fa.fa-search-plus{
+    color: white;
+}
+
+
+/* Extra*/
+
+.extra{
+
+	background: url(../img/footer.png) no-repeat center top;
+ 	background-size: cover;
+ 	text-align: center;
+}
+
+.extra-text{
+
+	padding-bottom: 100px;
+
+}
+
+.extra-text h2{
+	padding-top: 100px;
+
+}
+
+.extra-text p{
+
+}
+
+/* sample*/
+
+.sample{
+	background-color: #f4f4f4;
+}
+
+.sample-text{
+	text-align: left;
+}
+
+.sample-text h2{
+	text-align: left;
+	color: #8a8a8a;
+}
+
+.sample-text p{
+	text-align: left;
+	color: #8a8a8a;
+}
+
+.head-text text{
+	text-align: left;
+
+}
+
+footer{
+color: #fff;
+text-align: left;
+padding-top: 50px;
+padding-bottom: 50px;
+background-color: #2b2b2b;
+
+}
+
